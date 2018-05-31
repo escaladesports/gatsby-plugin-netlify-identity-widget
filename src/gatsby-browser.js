@@ -1,7 +1,6 @@
-import React from 'react'
 import netlifyIdentity from 'netlify-identity-widget'
 
-export function onInitialClientRender(options) {
-	netlifyIdentity.init(options)
+export function onInitialClientRender(){
+	netlifyIdentity.init()
 	window.netlifyIdentity = netlifyIdentity
 }
