@@ -8,7 +8,7 @@
     "identity",
     "widget"
   ],
-  "main": "dist/gatsby-ssr.js",
+  "main": "gatsby-browser.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "repository": {
     "type": "git",
