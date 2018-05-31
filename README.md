@@ -1,17 +1,26 @@
-# Gatsby Plugin Boilerplate
+# gatsby-plugin-netlify-identity-widget
 
-A simple Gatsby plugin boilerplate.
+A Gatsby plugin for including the [Netlify Identity widget](https://github.com/netlify/netlify-identity-widget) on your site.
 
-## Getting started
+## Install
+
+With Yarn:
 
 ```bash
-git clone git@github.com:escaladesports/gatsby-plugin-boilerplate.git your-module
-cd your-module
-yarn
-yarn reset
+yarn add gatsby-plugin-netlify-identity-widget
+```
+
+Or with npm:
+
+```bash
+npm install --save gatsby-plugin-netlify-identity-widget
 ```
 
 ## Usage
 
-- `yarn test`: Run mocha tests
-- `yarn analyze`: View bundle sizes
+```javascript
+// In your gatsby-config.js
+plugins: [
+	'gatsby-plugin-netlify-identity-widget',
+]
+```
