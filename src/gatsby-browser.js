@@ -1,8 +1,7 @@
-export function onRouteUpdate({ location }) {
-	if (process.env.NODE_ENV === 'production' && typeof window._hsq === 'object') {
-		// Wait for the title update (see #2478)
-		setTimeout(() => {
-			window._hsq.push(['trackPageView'])
-		}, 0)
-	}
+import React from 'react'
+import netlifyIdentity from 'netlify-identity-widget'
+
+export function onInitialClientRender({ setPostBodyComponents }, options) {
+	netlifyIdentity.init(options)
+	window.netlifyIdentity = netlifyIdentity
 }
