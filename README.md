@@ -24,3 +24,17 @@ plugins: [
 	'gatsby-plugin-netlify-identity-widget',
 ]
 ```
+
+Or with options:
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+	{
+    resolve: 'gatsby-plugin-netlify-identity-widget',
+    options: {
+      container: '#netlify-modal'
+    }
+  }
+]
+```
