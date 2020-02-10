@@ -1,40 +1,7 @@
-# gatsby-plugin-netlify-identity-widget
+# legacy-
+gatsby-plugin-netlify-identity-widget
 
-A Gatsby plugin for including the [Netlify Identity widget](https://github.com/netlify/netlify-identity-widget) on your site.
+**DO NOT USE**
 
-## Install
-
-With Yarn:
-
-```bash
-yarn add gatsby-plugin-netlify-identity-widget
-```
-
-Or with npm:
-
-```bash
-npm install --save gatsby-plugin-netlify-identity-widget
-```
-
-## Usage
-
-```javascript
-// In your gatsby-config.js
-plugins: [
-	'gatsby-plugin-netlify-identity-widget',
-]
-```
-
-Or with options:
-
-```javascript
-// In your gatsby-config.js
-plugins: [
-	{
-    resolve: 'gatsby-plugin-netlify-identity-widget',
-    options: {
-      container: '#netlify-modal'
-    }
-  }
-]
-```
+Now part of [escalade](https://github.com/escaladesports/escalade/tree/master/packages/
+gatsby-plugin-netlify-identity-widget) monorepo.
